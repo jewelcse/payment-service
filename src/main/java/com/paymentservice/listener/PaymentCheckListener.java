@@ -40,7 +40,7 @@ public class PaymentCheckListener {
         payment.setCustomerId(orderDto.getCustomerId());
         payment.setTransactionId(transId);
 
-        Boolean result = false;
+        Boolean result = true;
 
         if (result) {
 
